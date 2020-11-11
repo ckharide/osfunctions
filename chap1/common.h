@@ -3,6 +3,7 @@
 
 #include <sys/time.h>
 #include <sys/stat.h>
+
 #include <assert.h>
 
 double GetTime() {
