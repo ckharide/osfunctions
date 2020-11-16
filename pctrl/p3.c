@@ -9,7 +9,6 @@ int main(int argc, char* argv[]){
   printf("hello world (pid:%d)\n", (int)getpid());
   fflush(stdout);
   int rc = fork();
-  printf("Value of the rc %d \n", rc);
   if (rc < 0) {
     // fork failed
     fprintf(stderr, "fork failed\n");
